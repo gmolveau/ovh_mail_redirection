@@ -30,11 +30,11 @@ then
 # }
 (venv) $ python3 cli.py generate facebook
 # facebook-ly4sbyg0p5s6kydzn7tl8zuy6xfeilpw
-(venv) $ python3 cli.py add -D yourdomain.fr -s newmail@yourdomain.fr -d redirect@anotherdomain.fr
+(venv) $ python3 cli.py add -D yourdomain.fr -s facebook-ly4sbyg0p5s6kydzn7tl8zuy6xfeilpw@yourdomain.fr -d redirect@anotherdomain.fr
 # {
 #     "action": "add",
 #     "date": "2020-03-12T17:10:41+01:00",
-#     "account": "testtest",
+#     "account": "facebook-ly4sbyg0p5s6kydzn7tl8zuy6xfeilpw",
 #     "type": "forward",
 #     "domain": "yourdomain.fr",
 #     "id": 123454321
